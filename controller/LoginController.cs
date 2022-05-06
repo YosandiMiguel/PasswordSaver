@@ -5,6 +5,7 @@ using System.Text;
 using PasswordSaver2._0.Model.DAO;
 using System.Threading.Tasks;
 using Login;
+using PasswordSaver2._0.View;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Runtime.InteropServices;
@@ -41,6 +42,11 @@ namespace PasswordSaver2._0.Controller
             viewController.txtUser.Leave += new EventHandler(Water_Mark_User);
             viewController.txtPass.Enter += new EventHandler(Clean_Textbox_Password);
             viewController.txtPass.Leave += new EventHandler(Water_Mark_Password);
+            #endregion
+
+            //Sing in
+            #region
+            viewController.btnAcceder.Click += new EventHandler(Acceder);
             #endregion
         }
 
@@ -148,6 +154,28 @@ namespace PasswordSaver2._0.Controller
                 viewController.txtPass.Text = "CONTRASEÑA";
                 viewController.txtPass.ForeColor = Color.DimGray;
             }
+        }
+        #endregion
+
+        //Sing in
+        #region Inicio de secion
+        private void Acceder(Object sender, EventArgs e)
+        {
+            bool validation;
+            UserDAO user = new UserDAO();
+            validation = user.Validation(viewController.txtUser.Text, viewController.txtPass.Text);
+
+            if (validation)
+            {
+
+                App singIn = new App();
+                singIn.Show();
+                viewController.Hide();
+            }
+            else
+                viewController.lblIncorrect.Visible = true;
+
+
         }
         #endregion
     }

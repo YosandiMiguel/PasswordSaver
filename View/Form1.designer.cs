@@ -39,6 +39,7 @@ namespace Login
             this.linkPass = new System.Windows.Forms.LinkLabel();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.lblIncorrect = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -76,7 +77,6 @@ namespace Login
             this.txtUser.Size = new System.Drawing.Size(321, 25);
             this.txtUser.TabIndex = 1;
             this.txtUser.Text = "USUARIO";
-
             // 
             // txtPass
             // 
@@ -89,7 +89,6 @@ namespace Login
             this.txtPass.Size = new System.Drawing.Size(321, 25);
             this.txtPass.TabIndex = 2;
             this.txtPass.Text = "CONTRASEÑA";
-
             // 
             // label1
             // 
@@ -153,12 +152,26 @@ namespace Login
             this.btnMinimizar.TabIndex = 7;
             this.btnMinimizar.TabStop = false;
             // 
+            // lblIncorrect
+            // 
+            this.lblIncorrect.AutoSize = true;
+            this.lblIncorrect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.lblIncorrect.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.lblIncorrect.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(200)))));
+            this.lblIncorrect.Location = new System.Drawing.Point(354, 169);
+            this.lblIncorrect.Name = "lblIncorrect";
+            this.lblIncorrect.Size = new System.Drawing.Size(178, 14);
+            this.lblIncorrect.TabIndex = 8;
+            this.lblIncorrect.Text = "Contraeña o Correo incorrecto";
+            this.lblIncorrect.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(669, 286);
+            this.Controls.Add(this.lblIncorrect);
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.linkPass);
@@ -167,6 +180,7 @@ namespace Login
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Opacity = 0.9D;
@@ -192,6 +206,7 @@ namespace Login
         public System.Windows.Forms.Button btnAcceder;
         public System.Windows.Forms.PictureBox btnCerrar;
         public System.Windows.Forms.PictureBox btnMinimizar;
+        public System.Windows.Forms.Label lblIncorrect;
     }
 }
 

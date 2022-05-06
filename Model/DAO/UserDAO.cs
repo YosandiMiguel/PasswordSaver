@@ -13,13 +13,16 @@ namespace PasswordSaver2._0.Model.DAO
     class UserDAO : ConeccionDAO
     {
         MySqlDataReader reader;
-        MySqlCommand command; 
+        MySqlCommand command;
+        bool validation;
+        List<UserDTO> UserList = new List<UserDTO>();
 
-        public List<UserDTO> Login(string email,string password)
+        #region validation
+        public bool Validation(string email,string password)
         {
             
-            command = new MySqlCommand("SELECT * FROM TB_USUARIO WHERE correo = '"+email+"' AND contraseña = '"+password+"'", coneccion);
-            List<UserDTO> UserList = new List<UserDTO>();
+            command = new MySqlCommand("SELECT * FROM TB_USUARIO WHERE correo = '"+email+"' AND contraseña = SHA2('"+password+"',256)", coneccion);
+           
 
 
             try
@@ -29,6 +32,8 @@ namespace PasswordSaver2._0.Model.DAO
 
                 if (reader.HasRows)
                 {
+                    validation = true;
+
                     while (reader.Read())
                     {
                         UserList.Add(new UserDTO { ID = reader.GetInt32(0),
@@ -40,18 +45,21 @@ namespace PasswordSaver2._0.Model.DAO
                     }
                 }
             }
-            catch(Exception fali)
+            catch
             {
-                MessageBox.Show("Connection fail ano /n"+fali);
+                validation = false;
             }
 
             reader.Close();
             coneccion.Close();
 
+            return validation;
+        }
+        #endregion
+        public List<UserDTO> GetUsers()
+        {
             return UserList;
         }
-
-
         
         
     }
