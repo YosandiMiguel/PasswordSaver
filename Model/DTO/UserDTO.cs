@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PasswordSaver2._0.Model.DTO.Login
+namespace PasswordSaver2._0.Model.DTO
 {
-    class LoginDAO
+    class UserDTO
     {
         //Propiedades 
         int _id;

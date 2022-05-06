@@ -1,0 +1,15 @@
+/obj/
+/bin/
+/PasswordSaver/
+/.vs/
+app.config
+/properties/
+passwordSaver2.0.sln
+PasswordSaver2.csproj
+View/Login.resx
+packages.config
+/packages/
+
+
+
+
