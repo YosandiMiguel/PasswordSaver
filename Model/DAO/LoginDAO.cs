@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PasswordSaver2._0.Model.DAO
 {
-    class UserDAO : ConeccionDAO
+    class LoginDAO : ConeccionDAO
     {
         MySqlDataReader reader;
         MySqlCommand command;
@@ -18,11 +18,11 @@ namespace PasswordSaver2._0.Model.DAO
         List<UserDTO> UserList = new List<UserDTO>();
 
         #region validation
-        public bool Validation(string email,string password)
+        public bool Validation(string email, string password)
         {
-            
-            command = new MySqlCommand("SELECT * FROM TB_USUARIO WHERE correo = '"+email+"' AND contraseña = SHA2('"+password+"',256)", coneccion);
-           
+
+            command = new MySqlCommand("SELECT * FROM TB_USUARIO WHERE correo = '" + email + "' AND contraseña = SHA2('" + password + "',256)", coneccion);
+
 
 
             try
@@ -36,12 +36,15 @@ namespace PasswordSaver2._0.Model.DAO
 
                     while (reader.Read())
                     {
-                        UserList.Add(new UserDTO { ID = reader.GetInt32(0),
-                                                   Nombre = reader.GetString(1),
-                                                   Apellido = reader.GetString(2),
-                                                   Correo = reader.GetString(3),
-                                                   Contraseña = reader.GetString(4),
-                                                   Fecha_Creacion = reader.GetDateTime(5)});
+                        UserList.Add(new UserDTO
+                        {
+                            ID = reader.GetInt32(0),
+                            Nombre = reader.GetString(1),
+                            Apellido = reader.GetString(2),
+                            Correo = reader.GetString(3),
+                            Contraseña = reader.GetString(4),
+                            Fecha_Creacion = reader.GetDateTime(5)
+                        });
                     }
                 }
             }
@@ -60,7 +63,5 @@ namespace PasswordSaver2._0.Model.DAO
         {
             return UserList;
         }
-        
-        
     }
 }

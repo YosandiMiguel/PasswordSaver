@@ -162,7 +162,7 @@ namespace PasswordSaver2._0.Controller
         private void Acceder(Object sender, EventArgs e)
         {
             bool validation;
-            UserDAO user = new UserDAO();
+            LoginDAO user = new LoginDAO();
             validation = user.Validation(viewController.txtUser.Text, viewController.txtPass.Text);
 
             if (validation)

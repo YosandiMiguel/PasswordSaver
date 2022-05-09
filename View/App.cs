@@ -16,7 +16,7 @@ namespace PasswordSaver2._0.View
         public App()
         {
             InitializeComponent();
-            UserController controller = new UserController(this);
+            
 
         }
     }
