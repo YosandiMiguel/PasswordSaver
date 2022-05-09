@@ -14,6 +14,7 @@ namespace PasswordSaver2._0.Controller
 {
     class LoginController
     {
+        
         Form1 viewController;
         //Constructor
         public LoginController(Form1 view)
