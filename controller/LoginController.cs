@@ -29,13 +29,13 @@ namespace PasswordSaver2._0.Controller
             viewController.btnCerrar.Click += new EventHandler(Close);
             #endregion
 
-            //Btn close and minimized
-            #region botones cerrar y minimizar
+            //Btn close and minimized Colors
+            #region botones cerrar y minimizar colores
             viewController.btnCerrar.MouseEnter += new EventHandler(ChangeColor_BtnClose_MouseInto);
             viewController.btnCerrar.MouseLeave += new EventHandler(ChangeColor_BtnClose_MouseOut);
             viewController.btnMinimizar.MouseEnter += new EventHandler(ChangeColor_BtnMinimized_MouseInto);
             viewController.btnMinimizar.MouseLeave += new EventHandler(ChangeColor_BtnMinimized_MouseOut);
-            #endregion
+            #endregion 
 
             //Text Box
             #region Cuadros de texto
@@ -46,8 +46,15 @@ namespace PasswordSaver2._0.Controller
             #endregion
 
             //Sing in
-            #region
+            #region Inicial secion
             viewController.btnAcceder.Click += new EventHandler(Acceder);
+            #endregion
+
+            //Change Focus
+            #region Cambiar focus de controles
+            viewController.Activated += new EventHandler(FocusInit);
+            viewController.txtUser.KeyDown += new KeyEventHandler(ChangeFocus);
+            viewController.txtPass.KeyDown += new KeyEventHandler(ChangeFocus);
             #endregion
         }
 
@@ -164,20 +171,52 @@ namespace PasswordSaver2._0.Controller
         {
             bool validation;
             LoginDAO user = new LoginDAO();
-            validation = user.Validation(viewController.txtUser.Text, viewController.txtPass.Text);
 
-            if (validation)
+            if (viewController.txtUser.Text != "USUARIO" && viewController.txtPass.Text != "CONTRASEÑA")
             {
+                validation = user.Validation(viewController.txtUser.Text, viewController.txtPass.Text);
 
-                App singIn = new App();
-                singIn.Show();
-                viewController.Hide();
+                if (validation)
+                {
+
+                    App singIn = new App();
+                    singIn.Show();
+                    viewController.Hide();
+                }
+                else
+                    viewController.lblIncorrect.Visible = true;
             }
-            else
-                viewController.lblIncorrect.Visible = true;
+            else MessageBox.Show("Formulario vacio","Error",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
+
 
 
         }
+        #endregion
+
+        //Change Focus
+        #region Cambiar focus
+
+        private void ChangeFocus(object sender,KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                if (viewController.txtUser.Focused)
+                {
+                    viewController.txtPass.Focus();
+                }
+
+                else viewController.btnAcceder.PerformClick();
+
+
+
+            }
+        }
+        private void FocusInit(object sender, EventArgs e)
+        {
+            viewController.txtUser.Focus();
+        }
+
         #endregion
     }
 

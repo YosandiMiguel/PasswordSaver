@@ -75,7 +75,7 @@ namespace Login
             this.txtUser.Location = new System.Drawing.Point(279, 85);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(321, 25);
-            this.txtUser.TabIndex = 1;
+            this.txtUser.TabIndex = 0;
             this.txtUser.Text = "USUARIO";
             // 
             // txtPass

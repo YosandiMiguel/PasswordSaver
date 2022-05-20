@@ -6,11 +6,13 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 using PasswordSaver2._0.Model.DTO;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace PasswordSaver2._0.Model.DAO
 {
     class UsersDAO:ConeccionDAO
     {
+        public static int position;
         MySqlDataReader reader;
         MySqlCommand command;
         List<UserDTO> users = new List<UserDTO>();
@@ -34,12 +36,14 @@ namespace PasswordSaver2._0.Model.DAO
                                                 Correo = reader.GetString(3),
                                                 Contraseña = reader.GetString(4)});
                     }
+                    position = users.IndexOf(users.Single(i => i.ID == ID));
                 }
             }
             catch
             {
-                Console.WriteLine("Error");
+                MessageBox.Show("Ocurrio un erro al intentar cargar los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            
             return users;
         }
     }
