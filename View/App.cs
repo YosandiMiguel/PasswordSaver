@@ -34,5 +34,80 @@ namespace PasswordSaver2._0.View
         {
 
         }
+
+        private void TxtTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbMinimized_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbMaximized_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtIcon1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtIcon2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtIcon3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtIcon4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbIcon4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbIcon3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbIcon2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbIcon1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbSerchIcon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LeftPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PcbMenu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
