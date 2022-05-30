@@ -9,6 +9,7 @@ PasswordSaver2.csproj
 View/Login.resx
 packages.config
 /packages/
+/Resources/
 
 
 

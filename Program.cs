@@ -18,7 +18,7 @@ namespace PasswordSaver2._0
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new App());
+            Application.Run(new Form1());
         }
     }
 }

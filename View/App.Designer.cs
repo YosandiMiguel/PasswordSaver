@@ -227,9 +227,9 @@ namespace PasswordSaver2._0.View
             this.LblTitle.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitle.Location = new System.Drawing.Point(326, 18);
             this.LblTitle.Name = "LblTitle";
-            this.LblTitle.Size = new System.Drawing.Size(265, 20);
+            this.LblTitle.Size = new System.Drawing.Size(112, 20);
             this.LblTitle.TabIndex = 5;
-            this.LblTitle.Text = "Ventana donde me encuentro ";
+            this.LblTitle.Text = "Contraseñas";
             this.LblTitle.Click += new System.EventHandler(this.TxtTitle_Click);
             // 
             // PcbMinimized
