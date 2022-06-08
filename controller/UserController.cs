@@ -10,20 +10,17 @@ using PasswordSaver2._0.Model.DTO;
 using System.Drawing.Imaging;
 using System.Drawing;
 using System.IO;
+using PasswordSaver2._0.View.Children;
+
 
 namespace PasswordSaver2._0.Controller
 {
     class UserController
     {
-        //sizes
-        #region Tamaños de default
-        //form
-        readonly int formWidth = 800;
-        readonly int formHeight = 450;
-
-        //
+        private Form childInstance;
+        //size
         readonly int menuPanelWidth = 213;
-        #endregion
+      
 
         App appController;
         List<UserDTO> userInformation = new List<UserDTO>();
@@ -42,12 +39,21 @@ namespace PasswordSaver2._0.Controller
             appController.PcbMinimized.Click += new EventHandler(Minimized);
             appController.PcbMaximized.Click += new EventHandler(Maximized);
             #endregion
+            //Menu
+            #region Menu
 
             appController.PcbMenu.Click += new EventHandler(CloseMenu);
             appController.PcbMenu.MouseEnter += new EventHandler(ChangeImagePcbMenuStart);
             appController.PcbMenu.MouseLeave += new EventHandler(ChangeImagePcbMenuEnd);
+
+            //Opening forms children
+            appController.PcbSchedule.Click += new EventHandler(OpenSchelude);
+            appController.PcbSetting.Click += new EventHandler(OpenSetting);
+            appController.PcbPasswords.Click += new EventHandler(OpenPasswords);
             
-            
+            #endregion
+
+
         }
 
         //Initialize form
@@ -139,6 +145,42 @@ namespace PasswordSaver2._0.Controller
                 appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi Miguel Reyes/source/repos/PasswordSaver2.0/Resources/icons8-menu-39.png");
             }
         }
+        private void OpenChildForm(Form child)
+        {
+            
+            if (childInstance != null)
+            {
+                //Only one instance
+                childInstance.Close();
+            }
+            childInstance = child;
+            child.Dock = DockStyle.Fill;
+            child.TopLevel = false;
+            child.FormBorderStyle = FormBorderStyle.None;
+            appController.panelChild.Controls.Add(child);
+            child.Tag = "Child";
+            child.BringToFront();
+            child.Show();
+
+        }
+
+        //Opening forms
+        private void OpenSchelude(object sender, EventArgs e)
+        {
+            OpenChildForm(new Schelude());
+            appController.LblTitle.Text = "Schelude";
+        }
+        private void OpenPasswords(object sender, EventArgs e)
+        {
+            OpenChildForm(new Passwords());
+            appController.LblTitle.Text = "Passwords";
+        }
+        private void OpenSetting (object sender, EventArgs e)
+        {
+            OpenChildForm(new Setting());
+            appController.LblTitle.Text = "Setting";
+        }
+        
         #endregion
 
 

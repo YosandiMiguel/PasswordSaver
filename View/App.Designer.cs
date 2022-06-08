@@ -30,8 +30,8 @@ namespace PasswordSaver2._0.View
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(App));
-            this.DgvPasswords = new System.Windows.Forms.DataGridView();
             this.LeftPanel = new System.Windows.Forms.Panel();
+            this.PcbMenu = new System.Windows.Forms.PictureBox();
             this.LblIcon4 = new System.Windows.Forms.Label();
             this.LblIcon3 = new System.Windows.Forms.Label();
             this.LblIcon2 = new System.Windows.Forms.Label();
@@ -48,11 +48,9 @@ namespace PasswordSaver2._0.View
             this.LblMail = new System.Windows.Forms.Label();
             this.PcbPhoto = new System.Windows.Forms.PictureBox();
             this.LblName = new System.Windows.Forms.Label();
-            this.TxbSerch = new System.Windows.Forms.TextBox();
-            this.PcbSerchIcon = new System.Windows.Forms.PictureBox();
-            this.PcbMenu = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.DgvPasswords)).BeginInit();
+            this.panelChild = new System.Windows.Forms.Panel();
             this.LeftPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PcbMenu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSetting)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSchedule)).BeginInit();
@@ -62,22 +60,7 @@ namespace PasswordSaver2._0.View
             ((System.ComponentModel.ISupportInitialize)(this.PcbMinimized)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbMaximized)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbPhoto)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcbSerchIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcbMenu)).BeginInit();
             this.SuspendLayout();
-            // 
-            // DgvPasswords
-            // 
-            this.DgvPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DgvPasswords.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(84)))));
-            this.DgvPasswords.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvPasswords.Location = new System.Drawing.Point(231, 149);
-            this.DgvPasswords.MaximumSize = new System.Drawing.Size(1015, 990);
-            this.DgvPasswords.Name = "DgvPasswords";
-            this.DgvPasswords.Size = new System.Drawing.Size(519, 272);
-            this.DgvPasswords.TabIndex = 0;
             // 
             // LeftPanel
             // 
@@ -98,6 +81,18 @@ namespace PasswordSaver2._0.View
             this.LeftPanel.Size = new System.Drawing.Size(213, 396);
             this.LeftPanel.TabIndex = 2;
             this.LeftPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftPanel_Paint);
+            // 
+            // PcbMenu
+            // 
+            this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
+            this.PcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PcbMenu.Image")));
+            this.PcbMenu.Location = new System.Drawing.Point(171, 6);
+            this.PcbMenu.Name = "PcbMenu";
+            this.PcbMenu.Size = new System.Drawing.Size(39, 39);
+            this.PcbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PcbMenu.TabIndex = 6;
+            this.PcbMenu.TabStop = false;
+            this.PcbMenu.Click += new System.EventHandler(this.PcbMenu_Click);
             // 
             // LblIcon4
             // 
@@ -227,9 +222,8 @@ namespace PasswordSaver2._0.View
             this.LblTitle.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitle.Location = new System.Drawing.Point(326, 18);
             this.LblTitle.Name = "LblTitle";
-            this.LblTitle.Size = new System.Drawing.Size(112, 20);
+            this.LblTitle.Size = new System.Drawing.Size(0, 20);
             this.LblTitle.TabIndex = 5;
-            this.LblTitle.Text = "Contraseñas";
             this.LblTitle.Click += new System.EventHandler(this.TxtTitle_Click);
             // 
             // PcbMinimized
@@ -295,42 +289,13 @@ namespace PasswordSaver2._0.View
             this.LblName.Text = "Nombre";
             this.LblName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // TxbSerch
+            // panelChild
             // 
-            this.TxbSerch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxbSerch.Location = new System.Drawing.Point(256, 127);
-            this.TxbSerch.MaximumSize = new System.Drawing.Size(990, 400);
-            this.TxbSerch.Name = "TxbSerch";
-            this.TxbSerch.Size = new System.Drawing.Size(494, 20);
-            this.TxbSerch.TabIndex = 4;
-            this.TxbSerch.Text = "Serch";
-            // 
-            // PcbSerchIcon
-            // 
-            this.PcbSerchIcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(84)))));
-            this.PcbSerchIcon.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.PcbSerchIcon.Image = ((System.Drawing.Image)(resources.GetObject("PcbSerchIcon.Image")));
-            this.PcbSerchIcon.Location = new System.Drawing.Point(231, 127);
-            this.PcbSerchIcon.Name = "PcbSerchIcon";
-            this.PcbSerchIcon.Size = new System.Drawing.Size(19, 19);
-            this.PcbSerchIcon.TabIndex = 5;
-            this.PcbSerchIcon.TabStop = false;
-            this.PcbSerchIcon.Tag = "Buscar";
-            this.PcbSerchIcon.UseWaitCursor = true;
-            this.PcbSerchIcon.Click += new System.EventHandler(this.PcbSerchIcon_Click);
-            // 
-            // PcbMenu
-            // 
-            this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-            this.PcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PcbMenu.Image")));
-            this.PcbMenu.Location = new System.Drawing.Point(171, 6);
-            this.PcbMenu.Name = "PcbMenu";
-            this.PcbMenu.Size = new System.Drawing.Size(39, 39);
-            this.PcbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PcbMenu.TabIndex = 6;
-            this.PcbMenu.TabStop = false;
-            this.PcbMenu.Click += new System.EventHandler(this.PcbMenu_Click);
+            this.panelChild.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChild.Location = new System.Drawing.Point(213, 54);
+            this.panelChild.Name = "panelChild";
+            this.panelChild.Size = new System.Drawing.Size(564, 396);
+            this.panelChild.TabIndex = 4;
             // 
             // App
             // 
@@ -338,17 +303,15 @@ namespace PasswordSaver2._0.View
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(250)))));
             this.ClientSize = new System.Drawing.Size(777, 450);
-            this.Controls.Add(this.PcbSerchIcon);
-            this.Controls.Add(this.TxbSerch);
+            this.Controls.Add(this.panelChild);
             this.Controls.Add(this.LeftPanel);
-            this.Controls.Add(this.DgvPasswords);
             this.Controls.Add(this.TopPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "App";
             this.Text = "App";
-            ((System.ComponentModel.ISupportInitialize)(this.DgvPasswords)).EndInit();
             this.LeftPanel.ResumeLayout(false);
             this.LeftPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PcbMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSetting)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSchedule)).EndInit();
@@ -359,16 +322,11 @@ namespace PasswordSaver2._0.View
             ((System.ComponentModel.ISupportInitialize)(this.PcbMinimized)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbMaximized)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbPhoto)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcbSerchIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PcbMenu)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        public System.Windows.Forms.DataGridView DgvPasswords;
         public System.Windows.Forms.Label LblName;
         public System.Windows.Forms.PictureBox PcbPhoto;
         public System.Windows.Forms.Label LblMail;
@@ -385,9 +343,8 @@ namespace PasswordSaver2._0.View
         public System.Windows.Forms.PictureBox PcbSchedule;
         public System.Windows.Forms.PictureBox PcbPasswords;
         public System.Windows.Forms.Label LblTitle;
-        public System.Windows.Forms.TextBox TxbSerch;
-        public System.Windows.Forms.PictureBox PcbSerchIcon;
         public System.Windows.Forms.PictureBox PcbExit;
         public System.Windows.Forms.PictureBox PcbMenu;
+        public System.Windows.Forms.Panel panelChild;
     }
 }
