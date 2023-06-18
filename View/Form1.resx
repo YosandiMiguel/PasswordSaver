@@ -549,8 +549,8 @@
         RU5ErkJggg==
 </value>
   </data>
-=======
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
+
   <data name="btnCerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAABGdBTUEAALGPC/xhBQAAB9ZJREFUeF7t
@@ -590,8 +590,7 @@
         AAAAAAAAAAAAAAAAAEBtFxf/AP/BpIAh7mcqAAAAAElFTkSuQmCC
 </value>
   </data>
-<<<<<<< HEAD
-=======
+
   <data name="btnMinimizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAABGdBTUEAALGPC/xhBQAAAZ5JREFUeF7t
@@ -605,5 +604,5 @@
         RU5ErkJggg==
 </value>
   </data>
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+	
 </root>

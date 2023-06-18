@@ -29,32 +29,31 @@ namespace PasswordSaver2._0.View.Children
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
+
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-=======
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Passwords));
             this.DgvPasswords = new System.Windows.Forms.DataGridView();
             this.TxbSerch = new System.Windows.Forms.TextBox();
             this.PcbSerchIcon = new System.Windows.Forms.PictureBox();
-<<<<<<< HEAD
+
             this.btnShow = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnModify = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-=======
+
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             ((System.ComponentModel.ISupportInitialize)(this.DgvPasswords)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSerchIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // DgvPasswords
             // 
-<<<<<<< HEAD
+
             this.DgvPasswords.AllowUserToAddRows = false;
             this.DgvPasswords.AllowUserToDeleteRows = false;
             this.DgvPasswords.AllowUserToOrderColumns = true;
@@ -80,7 +79,7 @@ namespace PasswordSaver2._0.View.Children
             this.DgvPasswords.Size = new System.Drawing.Size(643, 318);
             this.DgvPasswords.TabIndex = 1;
             this.DgvPasswords.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvPasswords_CellContentClick);
-=======
+
             this.DgvPasswords.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -91,13 +90,13 @@ namespace PasswordSaver2._0.View.Children
             this.DgvPasswords.Name = "DgvPasswords";
             this.DgvPasswords.Size = new System.Drawing.Size(688, 368);
             this.DgvPasswords.TabIndex = 1;
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             // 
             // TxbSerch
             // 
             this.TxbSerch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-<<<<<<< HEAD
+
             this.TxbSerch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.TxbSerch.Font = new System.Drawing.Font("Constantia", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxbSerch.ForeColor = System.Drawing.Color.DimGray;
@@ -105,22 +104,22 @@ namespace PasswordSaver2._0.View.Children
             this.TxbSerch.MaximumSize = new System.Drawing.Size(990, 400);
             this.TxbSerch.Name = "TxbSerch";
             this.TxbSerch.Size = new System.Drawing.Size(643, 23);
-=======
+
             this.TxbSerch.Location = new System.Drawing.Point(30, 12);
             this.TxbSerch.MaximumSize = new System.Drawing.Size(990, 400);
             this.TxbSerch.Name = "TxbSerch";
             this.TxbSerch.Size = new System.Drawing.Size(670, 20);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.TxbSerch.TabIndex = 5;
             this.TxbSerch.Text = "Serch";
             // 
             // PcbSerchIcon
             // 
-<<<<<<< HEAD
+
             this.PcbSerchIcon.BackColor = System.Drawing.Color.DimGray;
-=======
+
             this.PcbSerchIcon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(70)))), ((int)(((byte)(84)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbSerchIcon.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.PcbSerchIcon.Image = ((System.Drawing.Image)(resources.GetObject("PcbSerchIcon.Image")));
             this.PcbSerchIcon.Location = new System.Drawing.Point(12, 13);
@@ -131,7 +130,7 @@ namespace PasswordSaver2._0.View.Children
             this.PcbSerchIcon.Tag = "Buscar";
             this.PcbSerchIcon.UseWaitCursor = true;
             // 
-<<<<<<< HEAD
+
             // btnShow
             // 
             this.btnShow.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -189,7 +188,7 @@ namespace PasswordSaver2._0.View.Children
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
-=======
+
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -251,41 +250,41 @@ namespace PasswordSaver2._0.View.Children
             this.button4.TabIndex = 10;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = false;
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             // 
             // Passwords
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
+
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(840, 418);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnModify);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnShow);
-=======
+
             this.ClientSize = new System.Drawing.Size(840, 418);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.Controls.Add(this.PcbSerchIcon);
             this.Controls.Add(this.TxbSerch);
             this.Controls.Add(this.DgvPasswords);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-<<<<<<< HEAD
+
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Passwords";
             this.Opacity = 0.9D;
             this.Text = " ";
-=======
+
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(250)))));
             this.Name = "Passwords";
             this.Text = "Passwords";
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             ((System.ComponentModel.ISupportInitialize)(this.DgvPasswords)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PcbSerchIcon)).EndInit();
             this.ResumeLayout(false);
@@ -298,16 +297,16 @@ namespace PasswordSaver2._0.View.Children
         public System.Windows.Forms.DataGridView DgvPasswords;
         public System.Windows.Forms.TextBox TxbSerch;
         public System.Windows.Forms.PictureBox PcbSerchIcon;
-<<<<<<< HEAD
+
         public System.Windows.Forms.Button btnShow;
         public System.Windows.Forms.Button btnDelete;
         public System.Windows.Forms.Button btnModify;
         public System.Windows.Forms.Button btnAdd;
-=======
+
         public System.Windows.Forms.Button button1;
         public System.Windows.Forms.Button button2;
         public System.Windows.Forms.Button button3;
         public System.Windows.Forms.Button button4;
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
     }
 }

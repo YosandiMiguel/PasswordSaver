@@ -64,11 +64,11 @@ namespace PasswordSaver2._0.View
             // 
             // LeftPanel
             // 
-<<<<<<< HEAD
+
             this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LeftPanel.Controls.Add(this.PcbMenu);
             this.LeftPanel.Controls.Add(this.LblIcon4);
             this.LeftPanel.Controls.Add(this.LblIcon3);
@@ -88,11 +88,11 @@ namespace PasswordSaver2._0.View
             // 
             // PcbMenu
             // 
-<<<<<<< HEAD
+
             this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PcbMenu.Image")));
             this.PcbMenu.Location = new System.Drawing.Point(171, 6);
             this.PcbMenu.Name = "PcbMenu";
@@ -105,17 +105,17 @@ namespace PasswordSaver2._0.View
             // LblIcon4
             // 
             this.LblIcon4.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblIcon4.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon4.Location = new System.Drawing.Point(74, 330);
             this.LblIcon4.Name = "LblIcon4";
             this.LblIcon4.Size = new System.Drawing.Size(34, 14);
-=======
+
             this.LblIcon4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon4.Location = new System.Drawing.Point(74, 330);
             this.LblIcon4.Name = "LblIcon4";
             this.LblIcon4.Size = new System.Drawing.Size(27, 13);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblIcon4.TabIndex = 8;
             this.LblIcon4.Text = "Salir";
             this.LblIcon4.Click += new System.EventHandler(this.TxtIcon4_Click);
@@ -123,17 +123,17 @@ namespace PasswordSaver2._0.View
             // LblIcon3
             // 
             this.LblIcon3.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblIcon3.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon3.Location = new System.Drawing.Point(74, 245);
             this.LblIcon3.Name = "LblIcon3";
             this.LblIcon3.Size = new System.Drawing.Size(98, 14);
-=======
+
             this.LblIcon3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon3.Location = new System.Drawing.Point(74, 245);
             this.LblIcon3.Name = "LblIcon3";
             this.LblIcon3.Size = new System.Drawing.Size(83, 13);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblIcon3.TabIndex = 7;
             this.LblIcon3.Text = "Configuraciones";
             this.LblIcon3.Click += new System.EventHandler(this.TxtIcon3_Click);
@@ -141,17 +141,17 @@ namespace PasswordSaver2._0.View
             // LblIcon2
             // 
             this.LblIcon2.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblIcon2.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon2.Location = new System.Drawing.Point(74, 160);
             this.LblIcon2.Name = "LblIcon2";
             this.LblIcon2.Size = new System.Drawing.Size(52, 14);
-=======
+
             this.LblIcon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon2.Location = new System.Drawing.Point(74, 160);
             this.LblIcon2.Name = "LblIcon2";
             this.LblIcon2.Size = new System.Drawing.Size(41, 13);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblIcon2.TabIndex = 6;
             this.LblIcon2.Text = "Horario";
             this.LblIcon2.Click += new System.EventHandler(this.TxtIcon2_Click);
@@ -159,28 +159,28 @@ namespace PasswordSaver2._0.View
             // LblIcon1
             // 
             this.LblIcon1.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblIcon1.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon1.Location = new System.Drawing.Point(74, 75);
             this.LblIcon1.Name = "LblIcon1";
             this.LblIcon1.Size = new System.Drawing.Size(76, 14);
-=======
+
             this.LblIcon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblIcon1.Location = new System.Drawing.Point(74, 75);
             this.LblIcon1.Name = "LblIcon1";
             this.LblIcon1.Size = new System.Drawing.Size(66, 13);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblIcon1.TabIndex = 5;
             this.LblIcon1.Text = "Contraseñas";
             this.LblIcon1.Click += new System.EventHandler(this.TxtIcon1_Click);
             // 
             // PcbLogOut
             // 
-<<<<<<< HEAD
+
             this.PcbLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.PcbLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbLogOut.Image = ((System.Drawing.Image)(resources.GetObject("PcbLogOut.Image")));
             this.PcbLogOut.Location = new System.Drawing.Point(6, 310);
@@ -192,11 +192,11 @@ namespace PasswordSaver2._0.View
             // 
             // PcbSetting
             // 
-<<<<<<< HEAD
+
             this.PcbSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.PcbSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbSetting.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbSetting.Image = ((System.Drawing.Image)(resources.GetObject("PcbSetting.Image")));
             this.PcbSetting.Location = new System.Drawing.Point(6, 225);
@@ -208,11 +208,11 @@ namespace PasswordSaver2._0.View
             // 
             // PcbSchedule
             // 
-<<<<<<< HEAD
+
             this.PcbSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.PcbSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbSchedule.Image = ((System.Drawing.Image)(resources.GetObject("PcbSchedule.Image")));
             this.PcbSchedule.Location = new System.Drawing.Point(6, 140);
@@ -224,11 +224,11 @@ namespace PasswordSaver2._0.View
             // 
             // PcbPasswords
             // 
-<<<<<<< HEAD
+
             this.PcbPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.PcbPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbPasswords.Image = ((System.Drawing.Image)(resources.GetObject("PcbPasswords.Image")));
             this.PcbPasswords.Location = new System.Drawing.Point(6, 55);
@@ -240,11 +240,11 @@ namespace PasswordSaver2._0.View
             // 
             // TopPanel
             // 
-<<<<<<< HEAD
+
             this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-=======
+
             this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.TopPanel.Controls.Add(this.PcbExit);
             this.TopPanel.Controls.Add(this.LblTitle);
             this.TopPanel.Controls.Add(this.PcbMinimized);
@@ -274,30 +274,30 @@ namespace PasswordSaver2._0.View
             // 
             this.LblTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblTitle.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.LblTitle.Font = new System.Drawing.Font("Constantia", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitle.Location = new System.Drawing.Point(326, 18);
             this.LblTitle.Name = "LblTitle";
             this.LblTitle.Size = new System.Drawing.Size(0, 26);
-=======
+
             this.LblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblTitle.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitle.Location = new System.Drawing.Point(326, 18);
             this.LblTitle.Name = "LblTitle";
             this.LblTitle.Size = new System.Drawing.Size(0, 20);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblTitle.TabIndex = 5;
             this.LblTitle.Click += new System.EventHandler(this.TxtTitle_Click);
             // 
             // PcbMinimized
             // 
             this.PcbMinimized.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-<<<<<<< HEAD
+
             this.PcbMinimized.BackColor = System.Drawing.Color.White;
-=======
+
             this.PcbMinimized.BackColor = System.Drawing.SystemColors.ButtonFace;
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.PcbMinimized.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbMinimized.Image = ((System.Drawing.Image)(resources.GetObject("PcbMinimized.Image")));
             this.PcbMinimized.Location = new System.Drawing.Point(662, 9);
@@ -323,19 +323,19 @@ namespace PasswordSaver2._0.View
             // LblMail
             // 
             this.LblMail.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.LblMail.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMail.Location = new System.Drawing.Point(65, 32);
             this.LblMail.Name = "LblMail";
             this.LblMail.Size = new System.Drawing.Size(45, 14);
-=======
+
             this.LblMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblMail.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMail.Location = new System.Drawing.Point(65, 32);
             this.LblMail.Name = "LblMail";
             this.LblMail.Size = new System.Drawing.Size(44, 14);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblMail.TabIndex = 1;
             this.LblMail.Text = "Correo";
             // 
@@ -355,31 +355,30 @@ namespace PasswordSaver2._0.View
             // LblName
             // 
             this.LblName.AutoSize = true;
-<<<<<<< HEAD
+
             this.LblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.LblName.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblName.ForeColor = System.Drawing.SystemColors.ControlText;
             this.LblName.Location = new System.Drawing.Point(65, 9);
             this.LblName.Name = "LblName";
             this.LblName.Size = new System.Drawing.Size(52, 14);
-=======
+
             this.LblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblName.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblName.ForeColor = System.Drawing.SystemColors.ControlText;
             this.LblName.Location = new System.Drawing.Point(65, 9);
             this.LblName.Name = "LblName";
             this.LblName.Size = new System.Drawing.Size(50, 14);
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.LblName.TabIndex = 0;
             this.LblName.Text = "Nombre";
             this.LblName.Click += new System.EventHandler(this.label1_Click);
             // 
             // panelChild
             // 
-<<<<<<< HEAD
+
             this.panelChild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-=======
->>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
+
             this.panelChild.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChild.Location = new System.Drawing.Point(213, 54);
             this.panelChild.Name = "panelChild";

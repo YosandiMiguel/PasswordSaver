@@ -46,7 +46,7 @@ namespace PasswordSaver2._0.Model.DAO
                 validation = false;
             }
 
-            reader.Close();
+            //reader.Close();
             coneccion.Close();
 
             return validation;
