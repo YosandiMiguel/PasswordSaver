@@ -1,0 +1,3 @@
+[Oo]bj/
+*.obj
+obj/

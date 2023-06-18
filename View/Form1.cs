@@ -20,6 +20,9 @@ namespace Login
             LoginController controller = new LoginController(this);
 
         }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 1ef45c122f8f82940baa55c2ea1010403a8e8311
     }
 }

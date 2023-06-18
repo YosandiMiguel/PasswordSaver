@@ -1,0 +1,29 @@
+[33mcommit 48500279a5cb8360d38ad4c3002badf30e565f65[m[33m ([m[1;36mHEAD -> [m[1;32mTest[m[33m)[m
+Author: Yosandi M. Reyes <elyosandireyes@gmail.com>
+Date:   Thu Oct 27 18:55:45 2022 -0400
+
+    El tamaño del datagridview esta definido, pero me esta dando un error al cargar las contraseñas, aunque las carga
+
+[33mcommit 5ef72cf53db933ba56e03efbbd9c38cbdf5584a7[m
+Author: Yosandi M. Reyes <elyosandireyes@gmail.com>
+Date:   Wed Oct 26 10:09:46 2022 -0400
+
+    Agrege todo por accidente, btw la clase que muestra el datagridview fue cambiada por una vista con los datos necesarios, ahora tengo que darle al datagridview un tamaño pre definido.
+
+[33mcommit c2dad70a7ef4c7517dd206a4f51a40233e834a3b[m[33m ([m[1;32mmain[m[33m)[m
+Author: Yosandi M. Reyes <elyosandireyes@gmail.com>
+Date:   Tue Oct 25 22:39:20 2022 -0400
+
+    Desde ahora trabajare en una rama secundaria primero...El error fue solucionado y las contraseñas pueden ser mostradas correctamente
+
+[33mcommit 1d1371165133f35774b4a18f5325cb7b8ba52a8b[m
+Author: Yosandi M. Reyes <elyosandireyes@gmail.com>
+Date:   Fri Oct 14 13:53:42 2022 -0400
+
+    Error al cargar los datos en la calse contraseñas
+
+[33mcommit 46cb305890068cf2c4f9451178ff4c04f568c8a2[m
+Author: Yosandi M. Reyes <elyosandireyes@gmail.com>
+Date:   Fri Oct 14 12:25:11 2022 -0400
+
+    Primer comit en esta pc
