@@ -24,6 +24,8 @@ namespace PasswordSaver2._0.Controller
 
         App appController;
         List<UserDTO> userInformation = new List<UserDTO>();
+        internal static bool menuState;
+        internal static bool formState;
 
         public UserController(App view)
         {
@@ -108,7 +110,7 @@ namespace PasswordSaver2._0.Controller
                 appController.PcbLogOut.Visible = false;
 
                 //Changing image(Picturebox menu)
-                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi Miguel Reyes/source/repos/PasswordSaver2.0/Resources/icons8-menu-39.png");
+                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi/Desktop/programas/PasswordSaver2.0/Resources/icons8-menu-39.png");
                 
                 
             }
@@ -124,7 +126,7 @@ namespace PasswordSaver2._0.Controller
                 appController.PcbLogOut.Visible = true;
 
                 //Changing image(Picturebox menu)
-                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi Miguel Reyes/source/repos/PasswordSaver2.0/Resources/icons8-double-left-39.png");
+                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi/Desktop/programas/PasswordSaver2.0/Resources/icons8-double-left-39.png");
                 
             }
         }
@@ -134,7 +136,7 @@ namespace PasswordSaver2._0.Controller
         {
             if(appController.PcbMenu.Location.X == 15)
             {
-                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi Miguel Reyes/source/repos/PasswordSaver2.0/Resources/icons8-menu.gif");
+                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi/Desktop/programas/PasswordSaver2.0/Resources/icons8-menu.gif");
 
             }
         } 
@@ -142,7 +144,7 @@ namespace PasswordSaver2._0.Controller
         {
             if (appController.PcbMenu.Location.X == 15)
             {
-                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi Miguel Reyes/source/repos/PasswordSaver2.0/Resources/icons8-menu-39.png");
+                appController.PcbMenu.Image = Image.FromFile("C:/Users/Yosandi/Desktop/programas/PasswordSaver2.0/Resources/icons8-menu-39.png");
             }
         }
         private void OpenChildForm(Form child)
