@@ -214,29 +214,7 @@ namespace Login
             this.btnCerrar.TabStop = false;
             // 
 
-            // btnMinimizar
-            // 
-            this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
-            this.btnMinimizar.Location = new System.Drawing.Point(645, 0);
-            this.btnMinimizar.Name = "btnMinimizar";
-            this.btnMinimizar.Size = new System.Drawing.Size(13, 13);
-            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimizar.TabIndex = 7;
-            this.btnMinimizar.TabStop = false;
-            // 
-            // lblIncorrect
-            // 
-            this.lblIncorrect.AutoSize = true;
-            this.lblIncorrect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-            this.lblIncorrect.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.lblIncorrect.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(200)))));
-            this.lblIncorrect.Location = new System.Drawing.Point(354, 169);
-            this.lblIncorrect.Name = "lblIncorrect";
-            this.lblIncorrect.Size = new System.Drawing.Size(178, 14);
-            this.lblIncorrect.TabIndex = 8;
-            this.lblIncorrect.Text = "Contraeña o Correo incorrecto";
-            this.lblIncorrect.Visible = false;
+
             // 
 
             // Form1
