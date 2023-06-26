@@ -64,11 +64,7 @@ namespace PasswordSaver2._0.View
             // 
             // LeftPanel
             // 
-
-            this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.LeftPanel.Controls.Add(this.PcbMenu);
             this.LeftPanel.Controls.Add(this.LblIcon4);
             this.LeftPanel.Controls.Add(this.LblIcon3);
@@ -79,24 +75,22 @@ namespace PasswordSaver2._0.View
             this.LeftPanel.Controls.Add(this.PcbSchedule);
             this.LeftPanel.Controls.Add(this.PcbPasswords);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LeftPanel.Location = new System.Drawing.Point(0, 54);
-            this.LeftPanel.MaximumSize = new System.Drawing.Size(213, 940);
+            this.LeftPanel.Location = new System.Drawing.Point(0, 83);
+            this.LeftPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.LeftPanel.MaximumSize = new System.Drawing.Size(320, 1446);
             this.LeftPanel.Name = "LeftPanel";
-            this.LeftPanel.Size = new System.Drawing.Size(213, 396);
+            this.LeftPanel.Size = new System.Drawing.Size(320, 609);
             this.LeftPanel.TabIndex = 2;
             this.LeftPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LeftPanel_Paint);
             // 
             // PcbMenu
             // 
-
-            this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.PcbMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.PcbMenu.Image = ((System.Drawing.Image)(resources.GetObject("PcbMenu.Image")));
-            this.PcbMenu.Location = new System.Drawing.Point(171, 6);
+            this.PcbMenu.Location = new System.Drawing.Point(256, 9);
+            this.PcbMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbMenu.Name = "PcbMenu";
-            this.PcbMenu.Size = new System.Drawing.Size(39, 39);
+            this.PcbMenu.Size = new System.Drawing.Size(58, 60);
             this.PcbMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PcbMenu.TabIndex = 6;
             this.PcbMenu.TabStop = false;
@@ -105,17 +99,11 @@ namespace PasswordSaver2._0.View
             // LblIcon4
             // 
             this.LblIcon4.AutoSize = true;
-
-            this.LblIcon4.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon4.Location = new System.Drawing.Point(74, 330);
-            this.LblIcon4.Name = "LblIcon4";
-            this.LblIcon4.Size = new System.Drawing.Size(34, 14);
-
             this.LblIcon4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon4.Location = new System.Drawing.Point(74, 330);
+            this.LblIcon4.Location = new System.Drawing.Point(111, 508);
+            this.LblIcon4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIcon4.Name = "LblIcon4";
-            this.LblIcon4.Size = new System.Drawing.Size(27, 13);
-
+            this.LblIcon4.Size = new System.Drawing.Size(43, 20);
             this.LblIcon4.TabIndex = 8;
             this.LblIcon4.Text = "Salir";
             this.LblIcon4.Click += new System.EventHandler(this.TxtIcon4_Click);
@@ -123,17 +111,11 @@ namespace PasswordSaver2._0.View
             // LblIcon3
             // 
             this.LblIcon3.AutoSize = true;
-
-            this.LblIcon3.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon3.Location = new System.Drawing.Point(74, 245);
-            this.LblIcon3.Name = "LblIcon3";
-            this.LblIcon3.Size = new System.Drawing.Size(98, 14);
-
             this.LblIcon3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon3.Location = new System.Drawing.Point(74, 245);
+            this.LblIcon3.Location = new System.Drawing.Point(111, 377);
+            this.LblIcon3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIcon3.Name = "LblIcon3";
-            this.LblIcon3.Size = new System.Drawing.Size(83, 13);
-
+            this.LblIcon3.Size = new System.Drawing.Size(130, 20);
             this.LblIcon3.TabIndex = 7;
             this.LblIcon3.Text = "Configuraciones";
             this.LblIcon3.Click += new System.EventHandler(this.TxtIcon3_Click);
@@ -141,17 +123,11 @@ namespace PasswordSaver2._0.View
             // LblIcon2
             // 
             this.LblIcon2.AutoSize = true;
-
-            this.LblIcon2.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon2.Location = new System.Drawing.Point(74, 160);
-            this.LblIcon2.Name = "LblIcon2";
-            this.LblIcon2.Size = new System.Drawing.Size(52, 14);
-
             this.LblIcon2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon2.Location = new System.Drawing.Point(74, 160);
+            this.LblIcon2.Location = new System.Drawing.Point(111, 246);
+            this.LblIcon2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIcon2.Name = "LblIcon2";
-            this.LblIcon2.Size = new System.Drawing.Size(41, 13);
-
+            this.LblIcon2.Size = new System.Drawing.Size(65, 20);
             this.LblIcon2.TabIndex = 6;
             this.LblIcon2.Text = "Horario";
             this.LblIcon2.Click += new System.EventHandler(this.TxtIcon2_Click);
@@ -159,92 +135,70 @@ namespace PasswordSaver2._0.View
             // LblIcon1
             // 
             this.LblIcon1.AutoSize = true;
-
-            this.LblIcon1.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon1.Location = new System.Drawing.Point(74, 75);
-            this.LblIcon1.Name = "LblIcon1";
-            this.LblIcon1.Size = new System.Drawing.Size(76, 14);
-
             this.LblIcon1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIcon1.Location = new System.Drawing.Point(74, 75);
+            this.LblIcon1.Location = new System.Drawing.Point(111, 115);
+            this.LblIcon1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIcon1.Name = "LblIcon1";
-            this.LblIcon1.Size = new System.Drawing.Size(66, 13);
-
+            this.LblIcon1.Size = new System.Drawing.Size(104, 20);
             this.LblIcon1.TabIndex = 5;
             this.LblIcon1.Text = "Contraseñas";
             this.LblIcon1.Click += new System.EventHandler(this.TxtIcon1_Click);
             // 
             // PcbLogOut
             // 
-
-            this.PcbLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.PcbLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.PcbLogOut.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbLogOut.Image = ((System.Drawing.Image)(resources.GetObject("PcbLogOut.Image")));
-            this.PcbLogOut.Location = new System.Drawing.Point(6, 310);
+            this.PcbLogOut.Location = new System.Drawing.Point(9, 477);
+            this.PcbLogOut.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbLogOut.Name = "PcbLogOut";
-            this.PcbLogOut.Size = new System.Drawing.Size(53, 53);
+            this.PcbLogOut.Size = new System.Drawing.Size(80, 82);
             this.PcbLogOut.TabIndex = 4;
             this.PcbLogOut.TabStop = false;
             this.PcbLogOut.Click += new System.EventHandler(this.PcbIcon4_Click);
             // 
             // PcbSetting
             // 
-
-            this.PcbSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.PcbSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.PcbSetting.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbSetting.Image = ((System.Drawing.Image)(resources.GetObject("PcbSetting.Image")));
-            this.PcbSetting.Location = new System.Drawing.Point(6, 225);
+            this.PcbSetting.Location = new System.Drawing.Point(9, 346);
+            this.PcbSetting.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbSetting.Name = "PcbSetting";
-            this.PcbSetting.Size = new System.Drawing.Size(53, 53);
+            this.PcbSetting.Size = new System.Drawing.Size(80, 82);
             this.PcbSetting.TabIndex = 3;
             this.PcbSetting.TabStop = false;
             this.PcbSetting.Click += new System.EventHandler(this.PcbIcon3_Click);
             // 
             // PcbSchedule
             // 
-
-            this.PcbSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.PcbSchedule.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.PcbSchedule.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbSchedule.Image = ((System.Drawing.Image)(resources.GetObject("PcbSchedule.Image")));
-            this.PcbSchedule.Location = new System.Drawing.Point(6, 140);
+            this.PcbSchedule.Location = new System.Drawing.Point(9, 215);
+            this.PcbSchedule.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbSchedule.Name = "PcbSchedule";
-            this.PcbSchedule.Size = new System.Drawing.Size(53, 53);
+            this.PcbSchedule.Size = new System.Drawing.Size(80, 82);
             this.PcbSchedule.TabIndex = 2;
             this.PcbSchedule.TabStop = false;
             this.PcbSchedule.Click += new System.EventHandler(this.PcbIcon2_Click);
             // 
             // PcbPasswords
             // 
-
-            this.PcbPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.PcbPasswords.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(133)))), ((int)(((byte)(212)))));
-
             this.PcbPasswords.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbPasswords.Image = ((System.Drawing.Image)(resources.GetObject("PcbPasswords.Image")));
-            this.PcbPasswords.Location = new System.Drawing.Point(6, 55);
+            this.PcbPasswords.Location = new System.Drawing.Point(9, 85);
+            this.PcbPasswords.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbPasswords.Name = "PcbPasswords";
-            this.PcbPasswords.Size = new System.Drawing.Size(53, 53);
+            this.PcbPasswords.Size = new System.Drawing.Size(80, 82);
             this.PcbPasswords.TabIndex = 1;
             this.PcbPasswords.TabStop = false;
             this.PcbPasswords.Click += new System.EventHandler(this.PcbIcon1_Click);
             // 
             // TopPanel
             // 
-
-            this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-
             this.TopPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
-
             this.TopPanel.Controls.Add(this.PcbExit);
             this.TopPanel.Controls.Add(this.LblTitle);
             this.TopPanel.Controls.Add(this.PcbMinimized);
@@ -254,8 +208,9 @@ namespace PasswordSaver2._0.View
             this.TopPanel.Controls.Add(this.LblName);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Size = new System.Drawing.Size(777, 54);
+            this.TopPanel.Size = new System.Drawing.Size(1166, 83);
             this.TopPanel.TabIndex = 3;
             // 
             // PcbExit
@@ -264,9 +219,10 @@ namespace PasswordSaver2._0.View
             this.PcbExit.BackColor = System.Drawing.Color.White;
             this.PcbExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbExit.Image = ((System.Drawing.Image)(resources.GetObject("PcbExit.Image")));
-            this.PcbExit.Location = new System.Drawing.Point(742, 9);
+            this.PcbExit.Location = new System.Drawing.Point(1113, 14);
+            this.PcbExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbExit.Name = "PcbExit";
-            this.PcbExit.Size = new System.Drawing.Size(29, 29);
+            this.PcbExit.Size = new System.Drawing.Size(44, 45);
             this.PcbExit.TabIndex = 6;
             this.PcbExit.TabStop = false;
             // 
@@ -274,35 +230,25 @@ namespace PasswordSaver2._0.View
             // 
             this.LblTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.LblTitle.AutoSize = true;
-
-            this.LblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.LblTitle.Font = new System.Drawing.Font("Constantia", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitle.Location = new System.Drawing.Point(326, 18);
-            this.LblTitle.Name = "LblTitle";
-            this.LblTitle.Size = new System.Drawing.Size(0, 26);
-
             this.LblTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblTitle.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblTitle.Location = new System.Drawing.Point(326, 18);
+            this.LblTitle.Location = new System.Drawing.Point(489, 28);
+            this.LblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTitle.Name = "LblTitle";
-            this.LblTitle.Size = new System.Drawing.Size(0, 20);
-
+            this.LblTitle.Size = new System.Drawing.Size(0, 30);
             this.LblTitle.TabIndex = 5;
             this.LblTitle.Click += new System.EventHandler(this.TxtTitle_Click);
             // 
             // PcbMinimized
             // 
             this.PcbMinimized.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-
-            this.PcbMinimized.BackColor = System.Drawing.Color.White;
-
             this.PcbMinimized.BackColor = System.Drawing.SystemColors.ButtonFace;
-
             this.PcbMinimized.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbMinimized.Image = ((System.Drawing.Image)(resources.GetObject("PcbMinimized.Image")));
-            this.PcbMinimized.Location = new System.Drawing.Point(662, 9);
+            this.PcbMinimized.Location = new System.Drawing.Point(993, 14);
+            this.PcbMinimized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbMinimized.Name = "PcbMinimized";
-            this.PcbMinimized.Size = new System.Drawing.Size(29, 29);
+            this.PcbMinimized.Size = new System.Drawing.Size(44, 45);
             this.PcbMinimized.TabIndex = 4;
             this.PcbMinimized.TabStop = false;
             this.PcbMinimized.Click += new System.EventHandler(this.PcbMinimized_Click);
@@ -313,9 +259,10 @@ namespace PasswordSaver2._0.View
             this.PcbMaximized.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.PcbMaximized.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PcbMaximized.Image = ((System.Drawing.Image)(resources.GetObject("PcbMaximized.Image")));
-            this.PcbMaximized.Location = new System.Drawing.Point(702, 9);
+            this.PcbMaximized.Location = new System.Drawing.Point(1053, 14);
+            this.PcbMaximized.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbMaximized.Name = "PcbMaximized";
-            this.PcbMaximized.Size = new System.Drawing.Size(29, 29);
+            this.PcbMaximized.Size = new System.Drawing.Size(44, 45);
             this.PcbMaximized.TabIndex = 2;
             this.PcbMaximized.TabStop = false;
             this.PcbMaximized.Click += new System.EventHandler(this.PcbMaximized_Click);
@@ -323,19 +270,12 @@ namespace PasswordSaver2._0.View
             // LblMail
             // 
             this.LblMail.AutoSize = true;
-
-            this.LblMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.LblMail.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMail.Location = new System.Drawing.Point(65, 32);
-            this.LblMail.Name = "LblMail";
-            this.LblMail.Size = new System.Drawing.Size(45, 14);
-
             this.LblMail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblMail.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMail.Location = new System.Drawing.Point(65, 32);
+            this.LblMail.Location = new System.Drawing.Point(98, 49);
+            this.LblMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblMail.Name = "LblMail";
-            this.LblMail.Size = new System.Drawing.Size(44, 14);
-
+            this.LblMail.Size = new System.Drawing.Size(66, 21);
             this.LblMail.TabIndex = 1;
             this.LblMail.Text = "Correo";
             // 
@@ -346,8 +286,9 @@ namespace PasswordSaver2._0.View
             this.PcbPhoto.Dock = System.Windows.Forms.DockStyle.Left;
             this.PcbPhoto.Image = ((System.Drawing.Image)(resources.GetObject("PcbPhoto.Image")));
             this.PcbPhoto.Location = new System.Drawing.Point(0, 0);
+            this.PcbPhoto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.PcbPhoto.Name = "PcbPhoto";
-            this.PcbPhoto.Size = new System.Drawing.Size(54, 54);
+            this.PcbPhoto.Size = new System.Drawing.Size(81, 83);
             this.PcbPhoto.TabIndex = 1;
             this.PcbPhoto.TabStop = false;
             this.PcbPhoto.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -355,46 +296,38 @@ namespace PasswordSaver2._0.View
             // LblName
             // 
             this.LblName.AutoSize = true;
-
-            this.LblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.LblName.Font = new System.Drawing.Font("Constantia", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblName.Location = new System.Drawing.Point(65, 9);
-            this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(52, 14);
-
             this.LblName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(165)))), ((int)(((byte)(200)))));
             this.LblName.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.LblName.Location = new System.Drawing.Point(65, 9);
+            this.LblName.Location = new System.Drawing.Point(98, 14);
+            this.LblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(50, 14);
-
+            this.LblName.Size = new System.Drawing.Size(76, 21);
             this.LblName.TabIndex = 0;
             this.LblName.Text = "Nombre";
             this.LblName.Click += new System.EventHandler(this.label1_Click);
             // 
             // panelChild
             // 
-
             this.panelChild.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
-
             this.panelChild.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChild.Location = new System.Drawing.Point(213, 54);
+            this.panelChild.Location = new System.Drawing.Point(320, 83);
+            this.panelChild.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelChild.Name = "panelChild";
-            this.panelChild.Size = new System.Drawing.Size(564, 396);
+            this.panelChild.Size = new System.Drawing.Size(846, 609);
             this.panelChild.TabIndex = 4;
             // 
             // App
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(215)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(777, 450);
+            this.ClientSize = new System.Drawing.Size(1166, 692);
             this.Controls.Add(this.panelChild);
             this.Controls.Add(this.LeftPanel);
             this.Controls.Add(this.TopPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "App";
             this.Text = "App";
             this.LeftPanel.ResumeLayout(false);
